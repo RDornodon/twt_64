@@ -1,0 +1,1 @@
+for _ in[I:=input]*int(I()):print(''.join(ord(c)%32*c for c in I()[::-1]))
